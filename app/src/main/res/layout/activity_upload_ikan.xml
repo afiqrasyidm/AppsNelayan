@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:background="#fff"
+    >
+    <TextView
+        android:id="@+id/tv_fish_upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="Unggah Ikan Kamu Disini"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Nama Kamu"/>
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="13"
+        android:layout_marginBottom="10dp"
+        />
+    <TextView
+        android:id="@+id/tvWaNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No Wa Kamu"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        />
+    <EditText
+        android:id="@+id/edtWaNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="13"
+        android:layout_marginBottom="10dp"
+        />
+    <TextView
+        android:id="@+id/tvFishName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Nama Ikan"
+        android:gravity="center"
+         />
+    <EditText
+        android:id="@+id/edtFishName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="13"
+        android:layout_marginBottom="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tvFishPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Harga Ikan (masukkan dalam RP)"
+        android:layout_gravity="center"
+        />
+    <EditText
+        android:id="@+id/edtFishPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:inputType="number"
+        android:ems="13"
+        android:layout_marginBottom="20dp"
+        />
+
+
+
+    <Button
+        android:id="@+id/btnImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:text="Pilih Gambar Ikan"
+        android:background="#0000FF"
+        android:textColor="#fff"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:layout_gravity="center"
+        />
+    <Button
+        android:id="@+id/btnUpload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#4CAF50"
+        android:textColor="#fff"
+        android:text="Unggah"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        />
+
+</LinearLayout>
+</ScrollView>
